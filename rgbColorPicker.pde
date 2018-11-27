@@ -62,7 +62,7 @@ void incrementB() {
 }
 void usingMouse() {
   if (mouseX>=0&&mouseX<=510&&mouseY>=0&&mouseY<=510&&mousePressed) {
-    g=mouseX/2;
-    b=mouseY/2;
+    g=(int)(mouseX/2);
+    b=(int)(mouseY/2);
   }
 }
